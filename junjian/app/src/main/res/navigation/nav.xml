@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/frg4">
+
+    <fragment
+        android:id="@+id/frg4"
+        android:name="com.example.junjian20.frg4"
+        android:label="fragment_frg4"
+        tools:layout="@layout/fragment_frg4" >
+        <action
+            android:id="@+id/action_frg4_to_homePage"
+            app:destination="@id/homePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.example.junjian20.HomePage"
+        android:label="HomePage" />
+</navigation>
